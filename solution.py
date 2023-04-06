@@ -8,4 +8,5 @@ def solution(x: np.array) -> float:
     a = x.mean() / (10**2)
     s = ((np.exp(1) + 35)**2 - 1) / 12
     a_estimate = a - s / np.sqrt(len(x))
-    return x.mean() # Ваш ответ
+    return a_estimate
+ # Ваш ответ
